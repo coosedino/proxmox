@@ -1,8 +1,7 @@
-# proxmox
-Proxmox Scripts
+# proxmox scripts
 
 **Remove Subscription Nag Screen**
-# Open Shell or SSH to Proxmox Server
+Open Shell or SSH to Proxmox Server
 nano /usr/local/bin/removesubnag.sh
 chmod +x /usr/local/bin/removesubnag.sh
 /usr/local/bin/removesubnag.sh
