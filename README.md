@@ -1,3 +1,10 @@
+# proxmox commands
+
+ip -o link show | grep -Po '^[0-9]+: \K[^:]+|(?<=link/ether )[^ ]+'
+
+
+
+
 --------------------------------------------
 # proxmox scripts
 Open Shell or SSH to Proxmox Server
